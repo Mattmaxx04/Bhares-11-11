@@ -7,20 +7,46 @@
     <title>Bhares</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <nav
-     <input type="checkbox" id="check">
-     <label for="check" class="checkbtn">
-    <i class="fas fa-bar"></i>
-     </label>
-     <label class="logo">Bhares 11:11</label>
-     <ul>
-        <li><a class="active" href="#">Inicio</a></li>
-        <li><a href="#pasteleria.html">Pasteleria</a></li>
-        <li><a href="#contacto.html">Contacto</a></li>
-        
-     </ul>
-    </nav>
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+               <div class="logo">
+                <img class="imglogo" src="assets/logobh.png">
+                <a href="#">Bhares 11:11</a>
+               </div>
+               <input type="checkbox" id="nav-check">
+               <label for="nav-check" class="nav-toggler">
+                  <span></span>
+               </label>
+               <nav class="nav">
+                  <ul>
+                    <li><a class="active" href="#">Inicio</a></li>
+                    <li><a href="pasteleria.html">Pasteleria</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>                    
+                  </ul>
+               </nav>
+            </div>
+        </div>
+     </header>
+   
+     <article>
+        <div class="row">
+            <div class="column" style="background-color:#aaa;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus soluta recusandae, deserunt exercitationem unde quo labore autem blanditiis doloremque id alias, dolor quasi perferendis incidunt a, hic facilis expedita atque?</div>
+            <div class="column" style="background-color:#bbb;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus explicabo asperiores facere architecto, neque voluptates unde quae laudantium adipisci quas?</div>
+            <div class="column" style="background-color:#ccc;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur fugit distinctio nisi tempora perferendis tempore quae quaerat provident. Non expedita sint ratione deleniti quaerat hic placeat fuga praesentium voluptatibus libero!</div>
+            <div class="column" style="background-color:#ccc;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur fugit distinctio nisi tempora perferendis tempore quae quaerat provident. Non expedita sint ratione deleniti quaerat hic placeat fuga praesentium voluptatibus libero!</div>
+          </div>
+
+     </article>
+
+    <footer>
+        <p>© 2022 by Matías Quiroga. All Rights Reserved.
+            </p>
+    </footer>
 </body>
 </html>
