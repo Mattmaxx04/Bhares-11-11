@@ -40,10 +40,7 @@ body{
     margin-top:16px;
 }
 
-.instagram{
 
-    background-image: url('/assets/instagram.png');
-}
 .container{
     width: 90%;
     max-width: 1200px;
@@ -570,6 +567,27 @@ body{
     width: 100%;
     flex-wrap: wrap;
     color: #fff;
+}
+
+.form{
+   
+    margin:auto;
+    border-radius: 1em;
+    border:2px solid var(--gold1);
+    padding:3.5em 1.5em;
+    width: 50%;
+    
+}
+.form__container{
+    display:grid;
+    grid-gap:5em;
+    
+}
+
+.form__input__pedido{
+    
+width: 30em;
+height: 10em;
 }
 
 .item__contact{
