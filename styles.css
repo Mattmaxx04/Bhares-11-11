@@ -28,14 +28,13 @@ body{
     height:60px;
     bottom:40px;
     left:40px;
-    /*background-color:var();*/
     color:var(--gold1);
     border-radius:50px;
     text-align:center;
     font-size:60px;
-    /*box-shadow: 2px 2px 3px #999;*/
     z-index:100;
 }
+
 .my-btnup{
     margin-top:16px;
 }
@@ -54,13 +53,13 @@ body{
     width: 60%;
 }
 
-.hero{
+.headnav{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
 }
 
-.nav__hero{
+.nav__headnav{
     color: #fff;
     height: 70px;
     border-bottom: 1px solid rgba(255,255,255, 0.1);
@@ -102,7 +101,7 @@ body{
     color: var(--gold1);
 }
 
-.hero__main{
+.headnav__main{
     height: calc(100vh - 70px);
     display: flex;
     justify-content: space-between;
@@ -117,7 +116,7 @@ body{
     border-radius: 10px;
 }
 
-.hero__textos{
+.headnav__textos{
     width: 48%;
 }
 
@@ -154,11 +153,6 @@ body{
     border-radius: 6px;
 }
 
-/* services */
-
-.services{
-    background: #fafafa;
-}
 
 .subtitle{
     font-size: 42px;
@@ -301,18 +295,18 @@ body{
     margin-bottom: 4px;
 }
 
-.testimony{
+.galery{
     background: #fafafa;
 }
 
-.testimony-container{
+.galery-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.testimony__card{
+.galery__card{
     width: 30%;
     height: 500px;
     background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
@@ -321,7 +315,7 @@ body{
     margin-bottom: 30px;
 }
 
-.testimony__img{
+.galery__img{
     width: 100%;
     height: 100%;
     border-radius: inherit;
@@ -329,7 +323,7 @@ body{
     object-position: center top;
 }
 
-.testimony__copy{
+.galery__copy{
     position: absolute;
     bottom: 20px;
     left: 5%;
@@ -344,27 +338,27 @@ body{
     align-items: center;
 }
 
-.testimony__copy--modifier{
+.galery__copy--modifier{
     background: none;
     box-shadow: none;
 }
 
-.testimony__logo{
+.galery__logo{
     font-size: 40px;
     margin-right: 15px;
     display: inline-block;
 }
 
-.testimony__name{
+.galery__name{
     font-size: 24px;
     line-height:28px;
 }
 
-.testimony__position{
+.galery__position{
     color: var(--gray);
 }
 
-.testimony__text{
+.galery__text{
     padding: 40px 0;
     width: 90%;
     margin: 0 auto;
@@ -376,13 +370,13 @@ body{
 }
 
 
-.testimony__history{
+.galery__history{
     font-size: 21px;
     font-weight: 300;
 }
 
 
-.testimony__info{
+.galery__info{
     width: 70%;
 }
 
@@ -430,47 +424,6 @@ body{
     font-weight: 300;
 }
 
-.newsletter{
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 40px;
-    height: auto;
-    font-family: inherit;
-    position: relative;
-    border-radius: 6px;
-}
-
-.newsletter--modifier{
-    margin: 0;
-    width: 80%;
-}
-
-.newsletter__input{
-    width: 100%;
-    height: 100%;
-    padding: 22px 10px;
-    outline: none;
-    font-family: inherit;
-    border-radius: 6px;
-    border: 1px solid var(--black1)
-}
-
-.newsletter__submit{
-    position: absolute;
-    right: 8px;
-    top: 10%;
-    height: 80%;
-    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
-    color: #fff;
-    padding: 0 15px;
-    border: none;
-    border-radius: 6px;
-    font-family: inherit;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-
 .footer{
     background: #fafafa;
 }
@@ -485,34 +438,6 @@ body{
 .title__footer{
     font-size: 24px;
     margin-bottom: 32px;
-}
-
-.download{
-    width: 50%;
-}
-
-.download__app{
-    display: flex;
-}
-
-.download__item{
-    display: flex;
-    padding: 18px 12px;
-    border-radius: 6px;
-    border: 1px solid var(--black2);
-    width: 42%;
-    align-items: center;
-    margin-right: 20px;
-    margin-bottom: 16px;
-}
-
-.download__logo{
-    font-size: 40px;
-    margin-right: 20px;
-}
-
-.download__title{
-    font-size: 18px;
 }
 
 .footer__copy{
@@ -644,10 +569,6 @@ height: 10em;
         justify-content: space-evenly;
     }
 
-    .services .card{
-        width: 45%;
-    }
-
     .background{
         width: 52%;
     }
@@ -656,33 +577,17 @@ height: 10em;
         width: 42%;
     }
 
-    .testimony-container{
+    .galery-container{
         justify-content: space-evenly;
     }
 
-    .testimony__card{
+    .galery__card{
         width: 45%;
     }
 
     .check__item{
         width: 45%;
         margin-bottom: 35px;
-    }
-
-    .newsletter{
-        width: 80%;
-    }
-
-    .download{
-        width: 100%;
-    }
-
-    .download__app{
-        justify-content: space-between;
-    }
-
-    .download__item{
-        width: 45%;
     }
 
     .get-email{
@@ -711,7 +616,7 @@ height: 10em;
         justify-content: space-evenly;
     }
 
-    .nav__hero{
+    .nav__headnav{
         height: auto;
     }
 
@@ -730,7 +635,7 @@ height: 10em;
     }
 
 
-    .hero__main{
+    .headnav__main{
         flex-direction: column-reverse;
         justify-content: flex-end;
         min-height: 70px;
@@ -738,7 +643,7 @@ height: 10em;
         padding: 30px 0;
     }
 
-    .hero__textos{
+    .headnav__textos{
         width: 100%;
         text-align: center;
     }
@@ -771,10 +676,6 @@ height: 10em;
         text-align: center;
     }
 
-    .services .card{
-        width: 80%;
-    }
-
     .container-bg{
         justify-content: space-evenly;
     }
@@ -801,11 +702,11 @@ height: 10em;
         display: none;
     }
 
-    .testimony__card{
+    .galery__card{
         width: 65%;
     }
 
-    .testimony__name{
+    .galery__name{
         font-size: 20px;
     }
 
@@ -826,10 +727,6 @@ height: 10em;
         border-radius: 10px;
     }
 
-    .services .card{
-        width: 95%;
-    }
-
     .card{
         width: 95%;
     }
@@ -838,25 +735,16 @@ height: 10em;
         width: 95%;
     }
 
-    .testimony__card{
+    .galery__card{
         width: 95%;
     }
 
-    .testimony__history{
+    .galery__history{
         font-size: 20px;
     }
 
     .container--modifier{
         width: 90%;
-    }
-
-    .newsletter{
-        width: 100%;
-        display: none;
-    }
-
-    .newsletter--modifier{
-        display: block;
     }
 
     .check__item{
@@ -866,15 +754,4 @@ height: 10em;
         justify-content: center;
     }
 
-    .download__item{
-        width: 49%;
-    }
-
-    .download__title{
-        font-size: 16px;
-    }
-
-    .download__logo{
-        font-size: 30px;
-    }
 }
