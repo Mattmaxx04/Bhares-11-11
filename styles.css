@@ -91,6 +91,11 @@ body{
     padding: 10px;
 }
 
+.link:hover{
+    
+        border-bottom: 4px solid var(--gold1);
+}
+
 .link--active{
     color: var(--gold1);
     font-weight: 700;
