@@ -21,7 +21,29 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+ /* up Button */
+.btnup{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    left:40px;
+    /*background-color:var();*/
+    color:var(--gold1);
+    border-radius:50px;
+    text-align:center;
+    font-size:60px;
+    /*box-shadow: 2px 2px 3px #999;*/
+    z-index:100;
+}
+.my-btnup{
+    margin-top:16px;
+}
 
+.instagram{
+
+    background-image: url('/assets/instagram.png');
+}
 .container{
     width: 90%;
     max-width: 1200px;
@@ -45,6 +67,7 @@ body{
     color: #fff;
     height: 70px;
     border-bottom: 1px solid rgba(255,255,255, 0.1);
+    
 }
 
 .nav__container{
@@ -53,6 +76,7 @@ body{
     justify-content: space-between;
     height: inherit;
     padding: 0;
+    
 }
 
 .logo__name{
@@ -572,6 +596,7 @@ body{
     font-size: 16px;
     line-height: 20px;
 }
+
 
 @media screen and (max-width:900px){
     .grano{
