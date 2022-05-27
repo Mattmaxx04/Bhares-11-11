@@ -18,13 +18,13 @@
                     <h2 class="logo__name">Bhares 11<span class="point">:</span>11</h2>
                 </div>
                 <div class="links">
-                    <a href="#top" class="link">Inicio</a>
+                    
                     <a href="#panificados" class="link">Panificados</a>
                     <a href="#nuestras tortas" class="link">Nuestras tortas</a>
                     <a href="#contacto" class="link">Contacto</a>
                 </div>
             </div>
-            <a href="#top" class="btnup"><i class="fa-regular fa-circle-up my-btnup" ></i></a>              
+                     
         </nav>
  
         <section class="container headnav__main">  
@@ -194,31 +194,25 @@
         </section>
         
         <section class="email container container--modifier">
+            
             <h2 class="subtitle subtitle--modifier" id="contacto">Los pedidos se realizan con 72hs de anticipación<span class="point">.</span></h2>
             <p class="copy__section copy__section--modifier">Se retiran zona Floresta o Villa Devoto<span class="point">.</span></p>
-           <div class="form">
-             <form>
-                <div class="form__container">
-                    <div>
-                    <h2 class="form__container">
-                        Realiza tu pedido
-                    </h2>
-                    <input type="text" class="form__input" placeholder="Nombre">
-
-                    <input type="text" class="form__input" placeholder="Teléfono">
+            <div class="form">
+                <div class="contact-box">
+                    <div class="left">
+                        <img src="assets/grano-tenero.jpg" class="galery__img">
                     </div>
-
-                    <div>
-                    <input type="text" class="form__input__pedido" placeholder="Pedido">
-
-                    <input type="submit" value="Registrar pedido" class="form__cta">
+                    <div class="right">
+                        <h2>Contact Us</h2>
+                        <input type="text" class="field" placeholder="Nombre">
+                        <input type="text" class="field" placeholder="E-mail">
+                        <input type="text" class="field" placeholder="Teléfono">
+                        <textarea placeholder="Pedido" class="field"></textarea>
+                        <button class="btn" onclick='return enviarFormulario()'>Enviar</button>
                     </div>
-                </div>    
-
-                </form>  
-                    
-            </div> 
-            
+                </div>
+            </div>
+                        
         </section>  
            
         <section>
@@ -277,5 +271,10 @@
             </div>
         </div>
     </footer>
+    <a href="#top" class="btnup"><i class="fa-regular fa-circle-up my-btnup" ></i></a>  
+    
+    <script src="main.js"></script>
+    <script src="app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script> 
 </body>
 </html>
