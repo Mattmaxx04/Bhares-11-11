@@ -209,16 +209,16 @@
                         <input type="text" class="field" placeholder="Nombre" id="contact-name" onkeyup="validateName()">
                             
                         <span class="inputspan" id="email-error"> </span>
-                        <input type="text" class="field" placeholder="E-mail">
+                        <input type="text" class="field" placeholder="E-mail" id="contact-email" onkeyup="validateEmail()">
                             
                         <span class="inputspan" id="phone-error"> </span>
-                        <input type="text" class="field" placeholder="Teléfono">
+                        <input type="text" class="field" placeholder="Teléfono" id="contact-phone" onkeyup="validatePhone()">
                             
                         <span class="inputspan" id="message-error"> </span>
-                        <textarea placeholder="Pedido" class="field"></textarea>
+                        <textarea placeholder="Pedido" class="field" id="contact-message" onkeyup="validateMessage()"></textarea>
                             
                         <span class="inputspan" id="submit-error"> </span>
-                        <button class="btn" >Enviar</button>
+                        <button class="btn" onclick="return validateForm()">Enviar</button>
                             
                     </div>
                 </div>

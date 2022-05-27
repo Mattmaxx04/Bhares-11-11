@@ -613,6 +613,11 @@ textarea{
     font-size: 14px;
     color: red;
     }
+
+.inputspan i{
+    
+        color: seagreen;
+        }    
 /*
 .form{
     display: flex;
