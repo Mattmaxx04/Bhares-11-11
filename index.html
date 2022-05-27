@@ -197,18 +197,29 @@
             
             <h2 class="subtitle subtitle--modifier" id="contacto">Los pedidos se realizan con 72hs de anticipación<span class="point">.</span></h2>
             <p class="copy__section copy__section--modifier">Se retiran zona Floresta o Villa Devoto<span class="point">.</span></p>
+            
             <div class="form">
                 <div class="contact-box">
                     <div class="left">
                         <img src="assets/grano-tenero.jpg" class="galery__img">
                     </div>
                     <div class="right">
-                        <h2>Contact Us</h2>
-                        <input type="text" class="field" placeholder="Nombre">
+                        <h2>Hace tu pedido</h2>
+                        <span class="inputspan" id="name-error"> </span>
+                        <input type="text" class="field" placeholder="Nombre" id="contact-name" onkeyup="validateName">
+                            
+                        <span class="inputspan" id="email-error"> </span>
                         <input type="text" class="field" placeholder="E-mail">
+                            
+                        <span class="inputspan" id="phone-error"> </span>
                         <input type="text" class="field" placeholder="Teléfono">
+                            
+                        <span class="inputspan" id="message-error"> </span>
                         <textarea placeholder="Pedido" class="field"></textarea>
-                        <button class="btn" onclick='return enviarFormulario()'>Enviar</button>
+                            
+                        <span class="inputspan" id="submit-error"> </span>
+                        <button class="btn" >Enviar</button>
+                            
                     </div>
                 </div>
             </div>
@@ -245,7 +256,7 @@
     </main>
 
     <footer class="footer">
-                <div class="contact">
+        <div class="contact">
             <div class="item__contact">
                                 
             </div>
@@ -289,6 +300,5 @@
     
     <script src="main.js"></script>
     <script src="app.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script> 
-</body>
+    </body>
 </html>

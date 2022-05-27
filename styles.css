@@ -521,6 +521,8 @@ body{
     width: 100%;
     flex-wrap: wrap;
     color: #fff;
+    
+
 }
 .form{
 	position: relative;
@@ -604,7 +606,13 @@ textarea{
     border: 2px solid rgba(30,85,250,0.47);
     background-color: #fff;
 }
-
+.inputspan{
+    
+    bottom: 12px;
+    right:12px;
+    font-size: 14px;
+    color: red;
+    }
 /*
 .form{
     display: flex;
